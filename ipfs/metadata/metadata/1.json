@@ -1,1 +1,6 @@
-{"name":"Token #{tokenId}","description":"Headshot covid-mask clear","image":"https://raw.githubusercontent.com/koolamusic/koolamusic.github.io/master/images/headshots/headshot_covid_square.png","external_url":"https://github.com/koolamusic/koolamusic.github.io/blob/master/images/headshots/headshot_covid_square.png"}
+{
+  "name": "Token #{tokenId}",
+  "description": "Headshot covid-mask clear",
+  "image": "https://raw.githubusercontent.com/koolamusic/koolamusic.github.io/master/images/headshots/headshot_covid_square.png",
+  "external_url": "https://github.com/koolamusic/koolamusic.github.io/blob/master/images/headshots/headshot_covid_square.png"
+}

@@ -1,0 +1,8 @@
+{
+  "extends": "next/core-web-vitals",
+  "import/no-anonymous-default-export": ["error", {
+    "allowCallExpression": true, // The true value here is for backward compatibility
+    "allowLiteral": true,
+    "allowObject": true
+  }]
+}

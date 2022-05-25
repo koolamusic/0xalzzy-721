@@ -1,1 +1,6 @@
-{"name":"Token #{tokenId}","description":"Headshot as EIT MEST","image":"https://raw.githubusercontent.com/koolamusic/koolamusic.github.io/master/images/headshots/headshot_xx.jpeg","external_url":"https://github.com/koolamusic/koolamusic.github.io/blob/master/images/headshots/headshot_xx.jpeg"}
+{
+  "name": "Token #{tokenId}",
+  "description": "Headshot as EIT MEST",
+  "image": "https://raw.githubusercontent.com/koolamusic/koolamusic.github.io/master/images/headshots/headshot_xx.jpeg",
+  "external_url": "https://github.com/koolamusic/koolamusic.github.io/blob/master/images/headshots/headshot_xx.jpeg"
+}
