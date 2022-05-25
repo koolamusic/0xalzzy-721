@@ -63,6 +63,3 @@ contract __xalzzy__ is ERC721Delegated, ReentrancyGuard {
     Address.sendValue(payable(_owner()), balance);
   }
 }
-
-// Contract created with Studio 721 v1.5.0
-// https://721.so

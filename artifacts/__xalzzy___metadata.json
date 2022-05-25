@@ -291,11 +291,11 @@
 			]
 		},
 		"__xalzzy__.sol": {
-			"keccak256": "0x871ea76c3762637009dfce5a762737397b21f5227171cb099b477962e06e089c",
+			"keccak256": "0x28e4bdf9e1cb955fcb95c77da2f0219780c63e721e03870f3c2449364eb5c521",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3acfdf44d6a01b6441d9b5302c61c8e89568087816011e587c6314884c9296f6",
-				"dweb:/ipfs/QmS5DHKzdevj8FF2WDxX8GAJNUoSJgk61Hpu2Vyqc1wC7s"
+				"bzz-raw://6d7c43f3c544603095f259184dd9f0d25673842f5c757ebff49f408fa5eb6413",
+				"dweb:/ipfs/QmeJnFHrxRi2SqSqqe5mXbV4m67kgmHvR6Zy6cVoap1M1W"
 			]
 		},
 		"gwei-slim-nft-contracts/contracts/base/ERC721Base.sol": {

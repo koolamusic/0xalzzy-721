@@ -1,0 +1,255 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_nftImplementation",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "symbol",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint16",
+								"name": "royaltyBps",
+								"type": "uint16"
+							},
+							{
+								"internalType": "string",
+								"name": "uriBase",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "uriExtension",
+								"type": "string"
+							},
+							{
+								"internalType": "bool",
+								"name": "hasTransferHook",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct ConfigSettings",
+						"name": "settings",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "implementation",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "Constructor that sets up the"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"gwei-slim-nft-contracts/contracts/base/ERC721Delegated.sol": "ERC721Delegated"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+			"keccak256": "0x35b09b69aca3bc2633da8f47382a81ecf367efe57167a2114f60f9ec81988afa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4dd39ae44599da9e6b59035de3cddcfaa8d7b2a45f1c887adf5a1e38315cf6cd",
+				"dweb:/ipfs/QmcFVkc7m3MzxoiCWCb2yZuezqW7eQTEvnScNALXhdsyJu"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/interfaces/IERC165Upgradeable.sol": {
+			"keccak256": "0x70994ca77f6dce93193d744ed99add51b57aef3e56d42b90889f6a2b1444b6f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b8e2b1e5f5161eb460c16964d90105c7e2e01b85323b01060defa41fcb024de6",
+				"dweb:/ipfs/QmRQxRM3AYZ78qJmT9Lzjp591DMfGb3UFdnQutqbTcJ5zb"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/interfaces/IERC2981Upgradeable.sol": {
+			"keccak256": "0xa22a7520aa91e00d994a8fc0c6e17df8331c3224d87a9079ae8b1a97644cbbbd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aed6bcbed63d814df5c0ab4ac6a0bb52545a6acc5fca6196e9e4bd88f41f6451",
+				"dweb:/ipfs/QmRToGdCRH5XKRLNMbh6B9khFbKLA7w2gencR15jFnQt31"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+			"keccak256": "0x8b2abd85d0ece7e866e100e9d47ca9cbec93c87cf71a8d267b2b93eb81f7d5e9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe9fa1beb63e4a09637701f783982ba80380d630d600c9cafe26b68bf58be1b2",
+				"dweb:/ipfs/QmRA3GXhTWys88joD9x8xYhdjzvGwmDGLMMzGw3LxbSEge"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol": {
+			"keccak256": "0x56f89378fca44345fe8de632c70311052c39d64a7a710513316676d343380e68",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d22f9bc8244dac77e7ad006ca89747592dcf9c5d181f18aecc6b13f5191b8636",
+				"dweb:/ipfs/QmWf2BMCs8CSycNJj633v6u85uRzSnvC5uo6iPgCfwyG7T"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol": {
+			"keccak256": "0x3d03f5cb8b9f17b75c3b6eb4921b1fe7b87ed77cf0c8638496eee5183a5101e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5de186747a6b768851aeae14d616aeda91063e6f2330e735c4b83f6f1d8495d7",
+				"dweb:/ipfs/QmWwSX9NKRS6qtQoKyS6S6HHmJ6kHhuar3LwssrejDMAMz"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol": {
+			"keccak256": "0xfbb3ca7272af58dc245a20e91a1f68481ee04706fa3fe46d184000efc21f4bad",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://038cad5fc2950820d94eead6323b56c3b95442aaa91a62c648fbde3256208ef5",
+				"dweb:/ipfs/QmUkfnMmgc5gt6Dj99TkYEwUuRcPqBpm4qnxb71mqj6Qep"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/token/ERC721/extensions/IERC721MetadataUpgradeable.sol": {
+			"keccak256": "0x6dd43e44dbaad99d1863be7f2837085f361efdcb1fde5a9bf84c4efa07f89ed3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf7a5b97df8bb8abe1bceadd1c5ff55b334771182a237a358fd34e97b4ed6099",
+				"dweb:/ipfs/QmfSGdYENk98pogMEBV4tzu4vUd6aFb2jFrBYfFNxbqQzz"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+			"keccak256": "0x946f08c0a132c5877d458d7af7956da60607f20a5c03dd75760708c848aae6b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b80d20ed113ad0be486d489e1cc2f0f4006b7893e579c2156e8c434d8eec382",
+				"dweb:/ipfs/QmdB8QGghkRGcSkp4xAWCvohGgYXFU9ncMx82XSqDMiZJf"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+			"keccak256": "0x062b5a0f7cc6b0528fa350033759f3a15ba42afb57423d7c593753860f2c82e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3c8b4ec819fc9648ef5ae6b8edc474b2a631389fa73add4c4545e1918abe034",
+				"dweb:/ipfs/Qmc8GzvTtCxR3mg3QuLRzycSMfsSjjZPyPALmLBjMxSGv6"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol": {
+			"keccak256": "0x00c96e792d367a436015f12ce2665aa8e2a0d61d2c6045a82cbb37da20e5a042",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://218701651e76569ebc32085f92f8dad32906158344ecf830b6064f62ed848e60",
+				"dweb:/ipfs/QmNQtn5YRZGHgSunzP5b5DyzotZTrCeFJzYbnN9BcTFD9T"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol": {
+			"keccak256": "0xc15eeb888d421aa4dedf46768a0502590d88911cfe5750d3ab9f644a7e5ada95",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f270653fd8d1a109e3e3aa77d5035a52f175b66604f924e0db1f71a5b38e708",
+				"dweb:/ipfs/QmNiP7PvV47ahSvMwxCifeUExVNhyVXdd8Zu2hGz4XC32j"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol": {
+			"keccak256": "0xc7af08df3d3e818ce36f95aa879c13245772fed21b553e6033292ea4edc2a9f3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://639c22bcf1ba4c783016c3eed1d9b546444feecb917a67201d66b6762df0b8a2",
+				"dweb:/ipfs/QmebyzSijf6BPXaXLHcJPZnPpLk48UW1esmUTEoGd4hHkv"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol": {
+			"keccak256": "0x17c9c5d2d6b56527215ee7b3da6dde66b6f23f1b3d5c66cc436e753ef349a97a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dd7c775bc6000f44c048796b5e013dbb3ec7592986bc289868b19ff9439ee31d",
+				"dweb:/ipfs/QmSuBfTT9z9sEpmEcGihEc5DJGsXery8QyyuNfvub875ej"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol": {
+			"keccak256": "0x1c4860acd323e34a67b3e97faab9aaa55fe8e92b1dcf08b5f47f3468d58ce75c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c2746f8ebb4bfb6b8e8a768296c7f85f11b36f4873daabb91933c3602f00590",
+				"dweb:/ipfs/QmdumDez8WEdk9FDuP7Jp5pDSJiQeFtFSJw3B5CEHJL4KU"
+			]
+		},
+		"gwei-slim-nft-contracts/contracts/base/ERC721Base.sol": {
+			"keccak256": "0x6779d0735992b2ed17a766d5b4de197cd189416069f8dfc04c444de77bbc07dd",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a1340e6f0cfc1278a22b62b70344581db2e37b61b9b08d3e2cc83465db018ed8",
+				"dweb:/ipfs/Qmb57DW4a5NNtAAhZwXdwxsfntdEwt2YKMYRt6SaiF826w"
+			]
+		},
+		"gwei-slim-nft-contracts/contracts/base/ERC721Delegated.sol": {
+			"keccak256": "0x2d839da5508c5b80afdf0f7556fe61003b0e6bde6ac0c1aa36c8384070471498",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0f9a6477fccc033fedb38eeb8458f107a8f87be8f49e407a955cffe95c4e2f4e",
+				"dweb:/ipfs/QmaT44fGrvKNrZN985o67rAZ8snSvMRGrgsehah47kH5f4"
+			]
+		},
+		"gwei-slim-nft-contracts/contracts/base/IBaseERC721Interface.sol": {
+			"keccak256": "0x97f7849166efc61ae0f4fa7c755796e8e909023ab93c29c7fdd1fb5adde9abe8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b65ca0c5a03a9c1564cb5dfd26da1e33ff7756c277dea1f6dad3991e3e41acd2",
+				"dweb:/ipfs/QmQxD57ydmKu59jXxaJxCaJEQaM1wHo3rHm5Q1aT4xuq9B"
+			]
+		}
+	},
+	"version": 1
+}
