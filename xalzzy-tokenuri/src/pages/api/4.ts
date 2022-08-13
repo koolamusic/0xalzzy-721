@@ -1,3 +1,5 @@
+
+
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 type Data = {
@@ -13,8 +15,8 @@ export default function handler(
 ) {
   res.status(200).json({
     "name": "Alexare #{tokenId}",
-    "description": "The one behind a computer screen",
-    "image": "https://raw.githubusercontent.com/koolamusic/0xalzzy-721/c43c834ef7d2e43aeef54f1ccb6d0cfbc7cb4486/xalzzy-tokenuri/public/Tobi-Amusan.jpg",
-    "external_url": "https://raw.githubusercontent.com/koolamusic/0xalzzy-721/c43c834ef7d2e43aeef54f1ccb6d0cfbc7cb4486/xalzzy-tokenuri/public/Tobi-Amusan.jpg"
+    "description": "The one with the smile",
+    "image": "https://raw.githubusercontent.com/koolamusic/koolamusic.github.io/d3bfe7eaa6660db0fd73c9f12ad6c92083ed2558/images/headshots/no.png",
+    "external_url": "https://github.com/koolamusic/koolamusic.github.io/blob/d3bfe7eaa6660db0fd73c9f12ad6c92083ed2558/images/headshots/no.png"
   })
 }
