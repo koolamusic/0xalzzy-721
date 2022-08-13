@@ -14,7 +14,7 @@ export default function handler(
   res.status(200).json({
     "name": "Alexare #{tokenId}",
     "description": "The one behind a computer screen",
-    "image": "https://raw.githubusercontent.com/koolamusic/koolamusic.github.io/master/images/headshots/_10_years_chal.jpg",
-    "external_url": "https://github.com/koolamusic/koolamusic.github.io/blob/master/images/headshots/_10_years_chal.jpg"
+    "image": "https://raw.githubusercontent.com/koolamusic/0xalzzy-721/c43c834ef7d2e43aeef54f1ccb6d0cfbc7cb4486/xalzzy-tokenuri/public/Tobi-Amusan.jpg",
+    "external_url": "https://raw.githubusercontent.com/koolamusic/0xalzzy-721/c43c834ef7d2e43aeef54f1ccb6d0cfbc7cb4486/xalzzy-tokenuri/public/Tobi-Amusan.jpg"
   })
 }
